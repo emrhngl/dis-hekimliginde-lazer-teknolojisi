@@ -8,14 +8,6 @@ import {
   AlertCircle,
 } from 'lucide-react';
 
-type Question = {
-  id: number;
-  question: string;
-  options: string[];
-  correct: number; // 0-based index
-  explanation: string;
-  wrongExplanations?: Array<string | null>;
-};
 
 type Phase = 'introEmoji' | 'introMessage' | 'quiz';
 
@@ -1201,3 +1193,5 @@ const LaserExamBooklet: React.FC = () => {
 };
 
 export default LaserExamBooklet;
+
+Fix TS unused Question type
