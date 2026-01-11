@@ -1193,5 +1193,3 @@ const LaserExamBooklet: React.FC = () => {
 };
 
 export default LaserExamBooklet;
-
-Fix TS unused Question type
