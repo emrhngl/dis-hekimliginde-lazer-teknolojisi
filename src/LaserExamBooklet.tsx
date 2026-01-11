@@ -851,10 +851,9 @@ const LaserExamBooklet: React.FC = () => {
 
           {/* 2️⃣ ORTA BLOK – DEDICATION (TEK SATIR) */}
           <div className="bg-white/8 backdrop-blur rounded-2xl px-6 py-5 shadow-2xl ring-1 ring-white/10 text-center">
-            <p className="text-white text-lg md:text-xl font-semibold whitespace-nowrap">
-              Betül Yadigaroğlu Hanım&apos;larının özel istekleri üzerine inşa
-              edilmiştir.
-            </p>
+          <p className="text-white text-lg md:text-xl font-semibold leading-snug md:whitespace-nowrap break-words">
+  Betül Yadigaroğlu Hanım&apos;larının özel istekleri üzerine inşa edilmiştir.
+</p>
           </div>
 
           {/* CTA */}
